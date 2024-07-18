@@ -14,10 +14,10 @@ const Nav = () => {
       setMobileShown(!mobileShown);
     }
   return (
-    <header className='flex justify-between py-5 px-10 sm:px-5 w-full bg-[#fff]'>
+    <header className='flex justify-between py-0 px-10 sm:px-5 w-full bg-[#fff]'>
         
         <div className=' bg-white justify-center items-center flex py-0'>
-           <Link to="/"> <img src={logo} alt="Samdenkens" className='w-[150px] h-[60px] sm:w-[80px] sm:h-[40px]' /></Link>
+           <Link to="/"> <img src={logo} alt="Samdenkens"  /></Link>
         </div>
        
         <nav className='w-[40%]  h-[100%] my-auto navbar-container sm:hidden'>
@@ -67,7 +67,7 @@ const Nav = () => {
           <div className="w-[90%] mx-auto py-10 mb-[40px] flex justify-between">
             <Link to="/">
               {" "}
-              <img src={navLogo} className="w-[150px] " alt="logo" />
+              <img src={navLogo}  alt="logo" />
             </Link>
             <button onClick={toggleNav}>
               <img className="w-[50px]" src={cross} alt="" />

@@ -38,7 +38,7 @@ const Nav = () => {
 
             </ul>
         </nav>
-        <button className='w-[115px] sm:hidden h-[43px] bg-[#F59F24] text-white rounded-sm'>
+        <button className='w-[115px] sm:hidden my-auto h-[43px] bg-[#F59F24] text-white rounded-sm'>
             Donate
         </button>
         <button className="hidden lg:block w-[50px] ml-auto" onClick={toggleNav}>

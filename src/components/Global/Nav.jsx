@@ -30,6 +30,10 @@ const Nav = () => {
                     <Link to="/about" className='text-[#525560] text-lg '>About Us</Link>
                     <span className='w-[20px] h-[6px] rounded-xl under-bar bg-black' />
                 </li>
+                <li className='navbar-link'>
+                    <Link to="/what-we-do" className='text-[#525560] text-lg '>What we do</Link>
+                    <span className='w-[20px] h-[6px] rounded-xl under-bar bg-black' />
+                </li>
                
                 <li className='navbar-link'>
                     <Link to="/contact" className='text-[#525560] text-lg '>Contact Us</Link>
@@ -52,6 +56,7 @@ const Nav = () => {
 <clipPath id="clip0_486_1117">
 <rect width="24" height="24" fill="black"/>
 </clipPath>
+
 </defs>
 </svg>
          
@@ -83,6 +88,11 @@ const Nav = () => {
             <li>
               <Link to="/about" className="font-medium">
                About Us
+              </Link>
+            </li>
+            <li>
+              <Link to="/what-we-do" className="font-medium">
+               What we do
               </Link>
             </li>
            

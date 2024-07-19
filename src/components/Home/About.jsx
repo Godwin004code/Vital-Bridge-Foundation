@@ -1,5 +1,6 @@
 import React from 'react'
 import img from "../assets/2150577025.jpg"
+import { Link } from 'react-router-dom'
 
 const About = () => {
     return (
@@ -27,9 +28,10 @@ const About = () => {
                     We also focus on skills development by providing training, mentorship, and support to empower individuals in their personal and professional endeavors.
 
                     </p>
+                    <Link to="/about">
                     <button className='w-[145px] h-[51px] bg-[#F59F24] mt-10 text-white rounded-sm'>
-                        What we do
-                    </button>
+                        About Us
+                    </button></Link>
                 </section>
             </div>
             <div className='w-[45%] sm:w-[100%] sm:mt-10 h-[578px] sm:h-[350px]'>

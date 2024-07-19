@@ -1,5 +1,6 @@
 import React from 'react'
 import img from "../assets/2148860433.jpg"
+import { Link } from 'react-router-dom'
 
 const Contribute = () => {
   return (
@@ -9,10 +10,10 @@ const Contribute = () => {
         <div className='w-full h-full bg-[#00000099] flex justify-center items-center flex-col  rounded-3xl absolute top-0 p-10'>
           <h2 className='text-5xl sm:text-2xl text-white text-center w-[70%] mx-auto font-bold'>You can contribute to creating a Sustainable Future for All </h2>
           <div className='flex gap-5 w-full justify-center'>
-
+          <Link to="/contact">
             <button className='w-[146px] h-[51px] bg-[#F59F24] mt-10 text-white rounded-md'>
               Contact Us
-            </button>
+            </button></Link>
             <button className='w-[146px] h-[51px] bg-[#fff] mt-10 text-black rounded-md'>
               Donate
             </button>

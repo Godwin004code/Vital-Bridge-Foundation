@@ -18,13 +18,13 @@ const ContactHero = () => {
                 <div className='sm:mt-10'>
                     <div>
                         <h2 className='text-2xl text-[#1D2130] font-bold'>Let's talk! </h2>
-                        <h2 className='text-base  mt-3'>+234 09012346514 <span className='ml-10'>contact@vitalbridge.com</span></h2>
+                        <h2 className='text-base  mt-3'>+2347035454348<span className='ml-10 sm:ml-3'>samdenkensgroup@gmail.com</span></h2>
                     </div>
                     <div className='mt-10'>
-                        <h2 className='text-2xl text-[#1D2130] font-bold'>Headoffice</h2>
-                        <p className='text-[#525560] text-base font-normal mt-3'>8 Brewery Drive, Lagos, <br /> Nigeria.</p>
+                        <h2 className='text-2xl text-[#1D2130] font-bold'>Head office</h2>
+                        <p className='text-[#525560] text-base font-normal mt-3'>Lagos, Nigeria </p>
                     </div>
-                    <div className='mt-10'>
+                    <div className='mt-10 hidden'>
                         <h2 className='text-2xl text-[#1D2130] font-bold'>Branch Office</h2>
                         <p className='text-[#525560] text-base font-normal mt-3'>Opp Opolo round about, Yenagoa, Bayelsa, <br /> Nigeria.</p>
                     </div>

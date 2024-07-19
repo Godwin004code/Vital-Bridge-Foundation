@@ -13,12 +13,16 @@ const WhatWeDo = () => {
     <h2 className='text-[#0C7B3B] text-base font-bold'>WHAT WE DO</h2>
     </div>
   <div className='ml-[77px] sm:ml-0 mt-10'>
-  <h2 className='text-5xl text-[#1D2130] font-bold'>We are working cross country </h2>
+  <h2 className='text-5xl text-[#1D2130] font-bold'>A beacon of hope, dedicated to improving the lives of the less privileged
+</h2>
     <p className='text-[#525560] mt-10 text-base font-normal'>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+    Since its establishment on May 8, 2017, the Green Gold Initiative, now "Vital Bridge," has been dedicated to improving the lives of the less privileged. Committed to social welfare and equal access to opportunities, we prioritize education as a catalyst for transformation through scholarships, programs, and support for schools and students.
     </p>
     <p className='text-[#525560] mt-10 text-base font-normal'>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor i
+    Our focus on skills development includes training, mentorship, and professional support to empower individuals. Additionally, we advocate for basic healthcare access, improved health outcomes, and preventive measures.
+    </p>
+    <p className='text-[#525560] mt-10 text-base font-normal'>
+    Our environmental sustainability efforts aim to reduce plastic waste, celebrate global climate days, and promote greener practices. Vital Bridge embodies compassion, empowerment, and resilience, inviting all to join us in creating positive change and building a brighter future for everyone.
     </p>
   </div>
    

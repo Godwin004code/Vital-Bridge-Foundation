@@ -3,7 +3,7 @@ import img from "../assets/africa-humanitarian-aid-doctor-taking-care-patient_23
 
 const WhatWeDo = () => {
   return (
-    <div className='w-full py-20 sm:pt-0'>
+    <div className='w-full hidden py-20 sm:pt-0'>
     <section className='w-[90%] mx-auto'>
   
     <section className='flex  sm:flex-col justify-between mt-10'>

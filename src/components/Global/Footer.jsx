@@ -49,7 +49,7 @@ const Footer = () => {
 </li>
     </ul>
 <div className='sm:text-center'>
-    <h2 className=' text-[#990000] font-semibold text-lg mb-6'>Home</h2>
+    <h2 className=' text-[#720000] font-semibold text-lg mb-6'>Home</h2>
     <ul>
         <li className='mb-6'>
             <Link to="/about" className=' text-white text-base my-auto'>About us</Link>
@@ -66,7 +66,7 @@ const Footer = () => {
     </ul>
 </div>
 <div className='sm:text-center'>
-    <h2 className=' text-[#990000] font-semibold text-lg mb-6'>More</h2>
+    <h2 className=' text-[#720000] font-semibold text-lg mb-6'>More</h2>
     <ul>
         <li className='mb-6'>
             <Link to="/about" className='e text-white text-base my-auto'>Projects</Link>
@@ -83,7 +83,7 @@ const Footer = () => {
     </ul>
 </div>
 <div className='sm:text-center sm:hidden'>
-    <h2 className='text-[#990000] font-semibold text-lg mb-4'>Connect</h2>
+    <h2 className='text-[#720000] font-semibold text-lg mb-4'>Connect</h2>
     <ul>
         <li className='flex gap-6 mb-5'><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="15" cy="15" r="15" fill="#D9D9D9"/>
@@ -114,10 +114,10 @@ const Footer = () => {
 </div>
 
 <div className='sm:text-center'>
-    <h2 className='text-[#990000] font-semibold text-lg mb-4'>Subscribe to get latest <br />updates</h2>
+    <h2 className='text-[#720000] font-semibold text-lg mb-4'>Subscribe to get latest <br />updates</h2>
     <div className='flex'>
-        <input type="email" className='bg-transparent h-[51px] focus:outline-none text-white  rounded-tl-md rounded-bl-md pl-2' placeholder='Your email' style={{border: '1px solid #990000'}} name="" id="" />
-        <button className='w-[100px] h-[51px] bg-[#990000] mt-0 text-white rounded-tr-md rounded-br-md'>Subscribe</button>
+        <input type="email" className='bg-transparent h-[51px] focus:outline-none text-white  rounded-tl-md rounded-bl-md pl-2' placeholder='Your email' style={{border: '1px solid #720000'}} name="" id="" />
+        <button className='w-[100px] h-[51px] bg-[#720000] mt-0 text-white rounded-tr-md rounded-br-md'>Subscribe</button>
     </div>
 </div>
         </section>

@@ -7,7 +7,7 @@ const SpecialNeeds = () => {
 
 
         return (
-                <div className='bg-[#9000000d] py-20'>
+                <div className='bg-[#9000000d]  z-40 py-20'>
                         <section className='w-[90%] mx-auto'>
                                 <h2 className='text-[#1D2130] text-5xl font-bold'>Our Focus Area</h2>
                         </section>

@@ -6,6 +6,7 @@ import img from "../assets/2148860433.jpg"
 import Contribute from '../Home/Contribute'
 
 const RealAboutPage = () => {
+
     return (
         <>
             <Nav />
@@ -36,7 +37,7 @@ const RealAboutPage = () => {
                 </div>
             </section>
             <img src={img} className='h-[400px] mb-[-200px] mt-20 rounded-[20px]  z-50   w-[90%] mx-auto object-cover' alt="about us" />
-            <section className='bg-[#FCEDC6] z-30 pt-[300px] pb-20  w-full '>
+            <section className='bg-[#ffcccc] z-30 pt-[300px] pb-20  w-full '>
               
                     
              

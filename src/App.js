@@ -23,7 +23,7 @@ function App() {
       <Route path='/project-cleanup-delta' element={<ProjectOne />} />
       <Route path='/project-end-malaria' element={<ProjectTwo />} />
       <Route path='/project-keepsapeleclean' element={<ProjectThree />} />
-      <Route path='about' element={<RealAboutPage />} />
+      <Route path='/about' element={<RealAboutPage />} />
     </Routes>
     </BrowserRouter>
   );

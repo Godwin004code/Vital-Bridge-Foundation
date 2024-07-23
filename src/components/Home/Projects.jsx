@@ -23,7 +23,7 @@ const Projects = () => {
               We initiated Project Cleanup Delta, a community-driven effort dedicated to cleaning up waste and promoting environmental stewardship throughout Delta State.
             </p>
             <Link to="/project-cleanup-delta">
-            <button className='w-[146px] h-[51px] bg-[#990000] mt-10 text-white rounded-sm'>
+            <button className='w-[146px] h-[51px] bg-[#720000] mt-10 text-white rounded-sm'>
               Learn more
             </button>
             </Link>
@@ -36,7 +36,7 @@ const Projects = () => {
             <p className='text-base  sm:text-sm  mt-7 text-white font-normal leading-[30px]'>
               We initiated Project Cleanup Delta, a community-driven effort dedicated to cleaning up waste and promoting environmental stewardship throughout Delta State.
             </p> <Link to="/project-end-malaria">
-            <button className='w-[146px] h-[51px] bg-[#990000] mt-10 text-white rounded-sm'>
+            <button className='w-[146px] h-[51px] bg-[#720000] mt-10 text-white rounded-sm'>
               Learn more
             </button></Link>
           </div>
@@ -49,7 +49,7 @@ const Projects = () => {
               We initiated Project Cleanup Delta, a community-driven effort dedicated to cleaning up waste and promoting environmental stewardship throughout Delta State.
             </p>
             <Link to="/project-keepsapeleclean">
-            <button className='w-[146px] h-[51px] bg-[#990000] mt-10 text-white rounded-sm'>
+            <button className='w-[146px] h-[51px] bg-[#720000] mt-10 text-white rounded-sm'>
               Learn more
             </button></Link>
           </div>

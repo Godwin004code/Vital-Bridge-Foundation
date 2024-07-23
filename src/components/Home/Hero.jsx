@@ -14,7 +14,7 @@ const Hero = () => {
             <h2 className='text-white text-6xl  sm:text-3xl font-bold'>supporting communities</h2>
             <h2 className='text-white text-6xl  sm:text-3xl font-bold'>in need.</h2>
             <Link to="/what-we-do">
-            <button className='w-[148px] h-[51px] bg-[#990000] mt-10 text-white rounded-sm'>
+            <button className='w-[148px] h-[51px] bg-[#720000] mt-10 text-white rounded-sm'>
            What we do
         </button>
             </Link>

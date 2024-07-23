@@ -29,7 +29,7 @@ const About = () => {
 
                     </p>
                     <Link to="/about">
-                    <button className='w-[145px] h-[51px] bg-[#990000] mt-10 text-white rounded-sm'>
+                    <button className='w-[145px] h-[51px] bg-[#720000] mt-10 text-white rounded-sm'>
                         About Us
                     </button></Link>
                 </section>

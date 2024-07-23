@@ -20,7 +20,7 @@ const Nav = () => {
         <Link to="/"> <img src={logo} alt="Samdenkens" className='w-[150px] sm:w-[100px] sm:h-[90px]  h-[120px] ' /></Link>
       </div>
 
-      <nav className='w-[40%]  h-[100%] my-auto navbar-container sm:hidden'>
+      <nav className='w-[50%]  h-[100%] my-auto navbar-container sm:hidden'>
         <ul className='flex justify-between px-20 '>
           <li className='navbar-link'>
             <Link to="/" className='text-[#525560] text-lg '>Home</Link>
@@ -46,7 +46,7 @@ const Nav = () => {
 
         </ul>
       </nav>
-      <button className='w-[115px] sm:hidden my-auto h-[43px] bg-[#990000] text-white rounded-sm'>
+      <button className='w-[115px] sm:hidden my-auto h-[43px] bg-[#720000] text-white rounded-sm'>
         Donate
       </button>
       <button className="hidden lg:block w-[50px] my-auto  ml-auto" onClick={toggleNav}>
@@ -111,7 +111,7 @@ const Nav = () => {
           </li>
 
           <Link to="/contact">
-            <button className="bg-[#900000] text-white w-full mt-[50px] rounded-md py-4 px-10">
+            <button className="bg-[#720000] text-white w-full mt-[50px] rounded-md py-4 px-10">
               Donate
             </button>
           </Link>

@@ -11,7 +11,7 @@ const Contribute = () => {
           <h2 className='text-5xl sm:text-2xl text-white text-center w-[70%] mx-auto font-bold'>You can contribute to creating a Sustainable Future for All </h2>
           <div className='flex gap-5 w-full justify-center'>
           <Link to="/contact">
-            <button className='w-[146px] h-[51px] bg-[#990000] mt-10 text-white rounded-md'>
+            <button className='w-[146px] h-[51px] bg-[#720000] mt-10 text-white rounded-md'>
               Contact Us
             </button></Link>
             <button className='w-[146px] h-[51px] bg-[#fff] mt-10 text-black rounded-md'>

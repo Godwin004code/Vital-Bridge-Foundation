@@ -37,7 +37,7 @@ const MobileFooter = () => {
             <Link to="/about" className='e text-white text-base my-auto'>Projects</Link>
         </li>
         <li className='mb-5'>
-            <Link to="/partners" className='e text-white text-base'>Contact Us</Link>
+            <Link to="/contact" className='e text-white text-base'>Contact Us</Link>
         </li>
         <li className='mb-7'>
             <Link to="/" className='e text-white text-base'>Donate</Link>

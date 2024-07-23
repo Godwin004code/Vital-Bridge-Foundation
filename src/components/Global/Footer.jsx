@@ -1,6 +1,6 @@
 
 import React from 'react'
-import logo from "../assets/Brand Guide ( Samdenkens ) (2) 1.png"
+import logo from "../assets/20240720_180228-removebg-preview.png"
 import { Link } from 'react-router-dom'
 
 
@@ -10,7 +10,7 @@ const Footer = () => {
     <div  className='bg-[#0B0706] sm:hidden' style={{borderTop: "1px solid #00000080"}}>
         <section className='w-[90%] mt-8 mb-0 py-14 mx-auto flex sm:flex-col sm:justify-center justify-between'> 
 <div className=' sm:flex sm:justify-center sm:mb-6'>
-    <img src={logo} className='sm:w-[116px] w-[160px] ] sm:h-[62px]' alt="Moshav logo" />
+    <img src={logo} className='sm:w-[116px] w-[320px] ml-[-80px] sm:h-[62px]' alt="Moshav logo" />
 </div>
 <ul className='hidden sm:flex w-full gap-4 mb-10 items-center  justify-center'>
         <li className='flex gap-6 mb-5'> <Link className='my-auto' to="">
@@ -49,41 +49,41 @@ const Footer = () => {
 </li>
     </ul>
 <div className='sm:text-center'>
-    <h2 className=' text-[#F59F24] font-semibold text-lg mb-6'>Home</h2>
+    <h2 className=' text-[#990000] font-semibold text-lg mb-6'>Home</h2>
     <ul>
         <li className='mb-6'>
             <Link to="/about" className=' text-white text-base my-auto'>About us</Link>
         </li>
         <li className='mb-5'>
-            <Link to="/partners" className=' text-white text-base'>Partners</Link>
+            <Link to="/what-we-do" className=' text-white text-base'>What we do</Link>
         </li>
         <li className='mb-7'>
-            <Link to="/" className=' text-white text-base'>Careers</Link>
+            <Link to="/" className=' text-white text-base'>Our Works</Link>
         </li>
-        <li className='mb-5'>
+        <li className='mb-5 hidden'>
             <Link to="/" className=' text-white text-base'>FAQ</Link>
         </li>
     </ul>
 </div>
 <div className='sm:text-center'>
-    <h2 className=' text-[#F59F24] font-semibold text-lg mb-6'>More</h2>
+    <h2 className=' text-[#990000] font-semibold text-lg mb-6'>More</h2>
     <ul>
         <li className='mb-6'>
             <Link to="/about" className='e text-white text-base my-auto'>Projects</Link>
         </li>
         <li className='mb-5'>
-            <Link to="/partners" className='e text-white text-base'>Events</Link>
+            <Link to="/partners" className='e text-white text-base'>Contact Us</Link>
         </li>
         <li className='mb-7'>
             <Link to="/" className='e text-white text-base'>Donate</Link>
         </li>
-        <li className='mb-5'>
+        <li className='mb-5 hidden'>
             <Link to="/" className='e text-white text-base'>Blog</Link>
         </li>
     </ul>
 </div>
 <div className='sm:text-center sm:hidden'>
-    <h2 className='text-[#F59F24] font-semibold text-lg mb-4'>Connect</h2>
+    <h2 className='text-[#990000] font-semibold text-lg mb-4'>Connect</h2>
     <ul>
         <li className='flex gap-6 mb-5'><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="15" cy="15" r="15" fill="#D9D9D9"/>
@@ -114,10 +114,10 @@ const Footer = () => {
 </div>
 
 <div className='sm:text-center'>
-    <h2 className='text-[#F59F24] font-semibold text-lg mb-4'>Subscribe to get latest <br />updates</h2>
+    <h2 className='text-[#990000] font-semibold text-lg mb-4'>Subscribe to get latest <br />updates</h2>
     <div className='flex'>
-        <input type="email" className='bg-transparent h-[51px] focus:outline-none text-white  rounded-tl-md rounded-bl-md pl-2' placeholder='Your email' style={{border: '1px solid #f59f24'}} name="" id="" />
-        <button className='w-[100px] h-[51px] bg-[#F59F24] mt-0 text-white rounded-tr-md rounded-br-md'>Subscribe</button>
+        <input type="email" className='bg-transparent h-[51px] focus:outline-none text-white  rounded-tl-md rounded-bl-md pl-2' placeholder='Your email' style={{border: '1px solid #990000'}} name="" id="" />
+        <button className='w-[100px] h-[51px] bg-[#990000] mt-0 text-white rounded-tr-md rounded-br-md'>Subscribe</button>
     </div>
 </div>
         </section>

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const ContactHero = () => {
     return (
-        <div className='bg-[#FCEDC6]'>
+        <div className='bg-[#ffe6e6]'>
             <section className='w-[90%] flex sm:flex-col py-20 mx-auto'>
                 <div className='w-[50%] sm:w-full'>
                     <div className='flex '>

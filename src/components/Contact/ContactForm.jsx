@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState, useRef } from 'react'
+import emailjs from "@emailjs/browser"
 
 const ContactForm = () => {
   return (
@@ -28,7 +29,7 @@ const ContactForm = () => {
        
         <textarea rows={10} placeholder='Type your message' className='w-full pl-3 mt-3 pt-3 block focus:outline-none' style={{border: '1px solid black'}}></textarea>
     </div>
-    <button className='w-[146px] h-[51px] bg-[#F59F24] mt-10 text-black rounded-md'>
+    <button className='w-[146px] h-[51px] bg-[#900000] text-white mt-10 text-black rounded-md'>
                Send Message
             </button>
     </form>

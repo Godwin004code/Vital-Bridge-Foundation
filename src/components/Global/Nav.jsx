@@ -1,10 +1,10 @@
 
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
-import logo from "../assets/Brand Guide ( Samdenkens ) 1.png"
+import logo from "../assets/20240720_180228-removebg-preview.png"
 import hamburger from "../assets/hamburger.svg"
 import cross from "../assets/cross.svg"
-import navLogo from "../assets/Brand Guide ( Samdenkens ) 1.png"
+import navLogo from "../assets/20240720_180228.svg"
 
 const Nav = () => {
     const [mobileShown, setMobileShown] = useState(false);
@@ -16,8 +16,8 @@ const Nav = () => {
   return (
     <header className='flex justify-between py-0 px-10 sm:px-5 w-full bg-[#fff]'>
         
-        <div className=' bg-white justify-center items-center flex py-0'>
-           <Link to="/"> <img src={logo} alt="Samdenkens"  /></Link>
+        <div className=' bg-[#fff] justify-center items-center flex py-0'>
+           <Link to="/"> <img src={logo} alt="Samdenkens" className='w-[150px] sm:w-[120px] sm:h-[80px] sm:ml-[-20px] h-[120px] '  /></Link>
         </div>
        
         <nav className='w-[40%]  h-[100%] my-auto navbar-container sm:hidden'>
@@ -34,6 +34,10 @@ const Nav = () => {
                     <Link to="/what-we-do" className='text-[#525560] text-lg '>What we do</Link>
                     <span className='w-[20px] h-[6px] rounded-xl under-bar bg-black' />
                 </li>
+                <li className='navbar-link'>
+                    <Link to="/our-works" className='text-[#525560] text-lg '>Our Works</Link>
+                    <span className='w-[20px] h-[6px] rounded-xl under-bar bg-black' />
+                </li>
                
                 <li className='navbar-link'>
                     <Link to="/contact" className='text-[#525560] text-lg '>Contact Us</Link>
@@ -42,7 +46,7 @@ const Nav = () => {
 
             </ul>
         </nav>
-        <button className='w-[115px] sm:hidden my-auto h-[43px] bg-[#F59F24] text-white rounded-sm'>
+        <button className='w-[115px] sm:hidden my-auto h-[43px] bg-[#990000] text-white rounded-sm'>
             Donate
         </button>
         <button className="hidden lg:block w-[50px] ml-auto" onClick={toggleNav}>
@@ -69,10 +73,10 @@ const Nav = () => {
           } fixed bg-white h-full w-full z-[100] overflow-auto left-0 top-0 text-black duration-500 ease-in-out`}
         >
           {/* Container for logo and cross button */}
-          <div className="w-[90%] mx-auto py-10 mb-[40px] flex justify-between">
+          <div className="w-[90%] mx-auto py-10 mb-[-40px] mt-[-80px] flex justify-between">
             <Link to="/">
               {" "}
-              <img src={navLogo}  alt="logo" />
+              <img src={navLogo} className='w-[250px] ml-[-50px]'  alt="logo" />
             </Link>
             <button onClick={toggleNav}>
               <img className="w-[50px]" src={cross} alt="" />
@@ -95,7 +99,11 @@ const Nav = () => {
                What we do
               </Link>
             </li>
-           
+            <li>
+              <Link to="/our-works" className="font-medium">
+              Our Works
+              </Link>
+            </li>
             
             <li>
               <Link to="/contact" className="font-medium">
@@ -104,7 +112,7 @@ const Nav = () => {
             </li>
 
             <Link to="/contact">
-              <button className="bg-[#F59F24] text-white w-full mt-[50px] rounded-md py-4 px-10">
+              <button className="bg-[#900000] text-white w-full mt-[50px] rounded-md py-4 px-10">
                 Donate
               </button>
             </Link>

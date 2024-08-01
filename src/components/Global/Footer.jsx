@@ -10,7 +10,7 @@ const Footer = () => {
     <div  className='bg-[#0B0706] sm:hidden' style={{borderTop: "1px solid #00000080"}}>
         <section className='w-[90%] mt-8 mb-0 py-14 mx-auto flex sm:flex-col sm:justify-center justify-between'> 
 <div className=' sm:flex sm:justify-center sm:mb-6'>
-    <img src={logo} className='sm:w-[116px] w-[320px] ml-[-80px] sm:h-[62px]' alt="Moshav logo" />
+    <img src={logo} className='sm:w-[116px] w-[320px] ml-[-80px] sm:h-[62px]' alt="VITAL BRIDGE FOUNDATION logo" />
 </div>
 <ul className='hidden sm:flex w-full gap-4 mb-10 items-center  justify-center'>
         <li className='flex gap-6 mb-5'> <Link className='my-auto' to="">

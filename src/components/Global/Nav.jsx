@@ -2,7 +2,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import logo from "../assets/20240720_180228-removebg-preview 1.png"
-import hamburger from "../assets/hamburger.svg"
 import cross from "../assets/cross.svg"
 import navLogo from "../assets/20240720_180228.svg"
 
@@ -14,10 +13,10 @@ const Nav = () => {
     setMobileShown(!mobileShown);
   }
   return (
-    <header className='flex justify-between py-0  px-10 sm:px-5 w-full bg-[#fff]'>
+    <header className='flex justify-between py-0 mt-[50px]  px-10 sm:px-5 w-full bg-[#fff]'>
 
       <div className=' bg-[#fff]   justify-center items-center flex py-0'>
-        <Link to="/"> <img src={logo} alt="Samdenkens" className='w-[150px] sm:w-[100px] sm:h-[90px]  h-[120px] ' /></Link>
+        <Link to="/"> <img src={logo} alt="Vital Bridge Foundation" className='w-[150px] sm:w-[100px] sm:h-[90px]  h-[120px] ' /></Link>
       </div>
 
       <nav className='w-[50%]  h-[100%] my-auto navbar-container sm:hidden'>

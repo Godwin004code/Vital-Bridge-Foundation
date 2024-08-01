@@ -1,0 +1,30 @@
+.announcement-toolbar {
+    width: 100%;
+    background-color: #720000;
+    overflow: hidden;
+    white-space: nowrap;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.announcement-text {
+    display: inline-block;
+    padding-left: 30%;
+    animation: move-text 10s linear infinite;
+    color: white;
+}
+
+@keyframes move-text {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

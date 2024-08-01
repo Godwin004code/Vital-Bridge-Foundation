@@ -8,11 +8,13 @@ import Howwespend from './Howwespend'
 import Contribute from './Contribute'
 import What from './What'
 import MobileFooter from '../Global/MobileFooter'
+import AnnouncementToolbar from '../Global/AnnouncementToolbar'
 
 
 const Home = () => {
   return (
     <>
+    <AnnouncementToolbar />
     <Nav />
     <Hero />
     <About />

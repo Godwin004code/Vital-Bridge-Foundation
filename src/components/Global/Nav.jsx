@@ -13,7 +13,7 @@ const Nav = () => {
     setMobileShown(!mobileShown);
   }
   return (
-    <header className='flex justify-between py-0 mt-[50px]  px-10 sm:px-5 w-full bg-[#fff]'>
+    <header className='flex justify-between py-0   px-10 sm:px-5 w-full bg-[#fff]'>
 
       <div className=' bg-[#fff]   justify-center items-center flex py-0'>
         <Link to="/"> <img src={logo} alt="Vital Bridge Foundation" className='w-[150px] sm:w-[100px] sm:h-[90px]  h-[120px] ' /></Link>

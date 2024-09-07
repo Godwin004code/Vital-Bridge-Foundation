@@ -15,6 +15,7 @@ const Home = () => {
   return (
     <>
     <AnnouncementToolbar />
+    <div className='mt-[50px]' />
     <Nav />
     <Hero />
     <About />

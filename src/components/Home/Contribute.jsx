@@ -6,8 +6,8 @@ const Contribute = () => {
   return (
     <div className='w-[90%] mx-auto py-20'>
       <div className='relative w-full'>
-        <img src={img} alt="" className='h-[350px] md:h-[600px] lg:h-[500px] md-2:h-[600px] rounded-3xl w-full object-cover' />
-        <div className='w-full h-full bg-[#00000099] flex justify-center items-center flex-col  rounded-3xl absolute top-0 p-10 m'>
+        <img src={img} alt="" className='h-[350px] sm:h-[720px] md:h-[600px] lg:h-[500px] md-2:h-[600px] rounded-3xl w-full object-cover' />
+        <div className='w-full h-full bg-[#00000099] flex justify-center items-center flex-col  rounded-3xl absolute top-0 p-10 sm:p-5'>
            <div className='flex gap-5 w-full justify-center md:flex-col'>
             <div className='w-full p-10 bg-[#720000] mt-0 text-white rounded-xl'>
                       <h2 className='text-5xl mb-7 sm:text-2xl text-white text-center w-[70%] mx-auto font-bold'>Vision </h2>

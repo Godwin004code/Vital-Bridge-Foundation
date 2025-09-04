@@ -47,7 +47,7 @@ Promoting wellness and ensuring access to essential healthcare for all (SDG 3)
 </p>
 <button
   className='w-fit px-6 h-[51px] bg-[#720000] mt-5 text-white rounded-md'
-  onClick={() => window.open('https://zfrmz.com/F7KeBKhQJlkEdXFxDrWF', '_blank')}
+  // onClick={() => window.open('https://zfrmz.com/F7KeBKhQJlkEdXFxDrWF', '_blank')}
 >
   Become a healthcare beneficiary
 </button>

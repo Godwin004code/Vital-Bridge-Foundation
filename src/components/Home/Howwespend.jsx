@@ -5,31 +5,37 @@ const Howwespend = () => {
   
   return (
     <div className='bg-[#0C7B3B] py-20 w-full'>
-      <section className='w-[90%] mx-auto flex  sm:flex-col'>
+      <section className='w-[90%] mx-auto flex md:gap-10  md:flex-col'>
     <div>
-      <h2  className='text-white text-5xl sm:text-2xl font-bold'>How we spend your </h2>
-      <h2  className='text-white text-5xl sm:text-2xl font-bold'>donations and where it goes</h2>
+      <h2  className='text-white text-5xl sm:text-2xl font-bold'>OUR CORE VALUES AND OBJECTIVES
+</h2>
+
       <p className='text-[#e1dcdc] sm:text-sm text-base my-8 sm:w-[100%] w-[50%]'>
-      We understand that when you make a  donation, you want to know exactly where your money is going and we pledge to be transparent.
+      Vitalbridge is committed to transforming lives and inspiring progress. We aim to improve the quality of life in communities by providing access to education, promoting health and well-being, enhancing skills and capacities, and protecting the environment.
       </p>
+      <h2  className='text-white text-2xl sm:text-xl font-bold mb-3'>Our four pillars are:</h2>
       <section>
         <div className='flex gap-2 mb-2'>
           <div className='w-[16px] h-[16px] my-auto bg-[#FFFFFF] rounded-[4px]'></div>
-          <h2 className='text-base sm:text-sm  font-medium  text-white'>40% goes to environment</h2>
+          <h2 className='text-base sm:text-sm  font-medium  text-white'>Education</h2>
         </div>
         <div className='flex gap-2 mb-2'>
           <div className='w-[16px] h-[16px] my-auto bg-[#AC94F1] rounded-[4px]'></div>
-          <h2 className='text-base sm:text-sm  font-medium  text-white'>35% goes to health projects</h2>
+          <h2 className='text-base sm:text-sm  font-medium  text-white'>Health care
+</h2>
         </div>
       </section>
-      <section >
+      <section>
+         
         <div className='flex gap-2 mb-2'>
           <div className='w-[16px] h-[16px] my-auto bg-[#990000] rounded-[4px]'></div>
-          <h2 className='text-base sm:text-sm font-medium  text-white'>15% goes to education and scholarships</h2>
+          <h2 className='text-base sm:text-sm font-medium  text-white'>Environmental sustainability 
+</h2>
         </div>
         <div className='flex gap-2 mb-2'>
           <div className='w-[16px] h-[16px] my-auto bg-[#F38FBF] rounded-[4px]'></div>
-          <h2 className='text-base sm:text-sm  font-medium  text-white'>10% goes to Human capacity developments</h2>
+          <h2 className='text-base sm:text-sm  font-medium  text-white'>Human capacity development
+</h2>
         </div>
       </section>
     </div>

@@ -8,21 +8,22 @@ const ContactHero = () => {
                 <div className='w-[50%] sm:w-full'>
                     <div className='flex '>
                         <div className='w-[75px] my-auto h-[2px]  mr-5 bg-[#1D2130]'></div>
-                        <h2 className='text-[#1D2130] text-base font-bold'>CONTACT US</h2>
+                        <h2 className='text-[#1D2130] text-base font-bold'>GET IN TOUCH WITH US!</h2>
                     </div>
                     <h2 className='text-5xl mt-10 ml-[77px] sm:ml-0 font-bold text-[#1d2130]'>
-                    We'd love to hear from you
+                    Talk to us- we're all ears!
                     </h2>
-                    <p className='text-base mt-7 ml-[77px] sm:ml-0 font-normal text-[#1d2130] sm:w-full w-[70%]'>Have any question in mind or want to enquire? Please feel free to contact us through the form or the following details.</p>
+                    <p className='text-base mt-7 ml-[77px] sm:ml-0 font-normal text-[#1d2130] sm:w-full w-[70%]'>Do you have questions or you're just curious about what we do? Fill out the form below, and one of our amazing team members will reach out to you shortly. We look forward to getting in touch with you!
+</p>
                 </div>
                 <div className='sm:mt-10'>
                     <div>
                         <h2 className='text-2xl text-[#1D2130] font-bold'>Let's talk! </h2>
-                        <h2 className='text-base  mt-3'>+2347035454348<span className='ml-10 sm:ml-3'>samdenkensgroup@gmail.com</span></h2>
+                        <h2 className='text-base  mt-3'>+2347035454348<span className='ml-10 sm:ml-3'>info@vitalbridgefoundation.org</span></h2>
                     </div>
                     <div className='mt-10'>
                         <h2 className='text-2xl text-[#1D2130] font-bold'>Head office</h2>
-                        <p className='text-[#525560] text-base font-normal mt-3'>Lagos, Nigeria </p>
+                        <p className='text-[#525560] text-base font-normal mt-3'>No. 5 Benita Close, Farm Road 2, Eliozu, Port Harcourt, Rivers State</p>
                     </div>
                     <div className='mt-10 hidden'>
                         <h2 className='text-2xl text-[#1D2130] font-bold'>Branch Office</h2>

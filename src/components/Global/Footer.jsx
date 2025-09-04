@@ -49,23 +49,20 @@ const Footer = () => {
 </li>
     </ul>
 <div className='sm:text-center'>
-    <h2 className=' text-[#720000] font-semibold text-lg mb-6'>Home</h2>
+    <h2 className=' text-[#720000] font-semibold text-lg mb-6'>Quicklinks</h2>
     <ul>
         <li className='mb-6'>
             <Link to="/about" className=' text-white text-base my-auto'>About us</Link>
         </li>
         <li className='mb-5'>
-            <Link to="/what-we-do" className=' text-white text-base'>What we do</Link>
+            <Link to="/what-we-do" className=' text-white text-base'>Partner with us</Link>
         </li>
-        <li className='mb-7'>
-            <Link to="/" className=' text-white text-base'>Our Works</Link>
-        </li>
-        <li className='mb-5 hidden'>
-            <Link to="/" className=' text-white text-base'>FAQ</Link>
+        <li className='mb-5'>
+            <Link to="/" className=' text-white text-base'>FAQs</Link>
         </li>
     </ul>
 </div>
-<div className='sm:text-center'>
+<div className='sm:text-center hidden'>
     <h2 className=' text-[#720000] font-semibold text-lg mb-6'>More</h2>
     <ul>
         <li className='mb-6'>
@@ -83,7 +80,7 @@ const Footer = () => {
     </ul>
 </div>
 <div className='sm:text-center sm:hidden'>
-    <h2 className='text-[#720000] font-semibold text-lg mb-4'>Connect</h2>
+    <h2 className='text-[#720000] font-semibold text-lg mb-4'>Socials</h2>
     <ul>
         <li className='flex gap-6 mb-5'><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="15" cy="15" r="15" fill="#D9D9D9"/>

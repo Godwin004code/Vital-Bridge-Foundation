@@ -19,7 +19,7 @@ const Nav = () => {
         <Link to="/"> <img src={logo} alt="Vital Bridge Foundation" className='w-[150px] sm:w-[100px] sm:h-[90px]  h-[120px] ' /></Link>
       </div>
 
-      <nav className='w-[50%]  h-[100%] my-auto navbar-container sm:hidden'>
+      <nav className='w-[50%]  h-[100%] my-auto navbar-container md-2:hidden'>
         <ul className='flex justify-between px-20 '>
           <li className='navbar-link'>
             <Link to="/" className='text-[#525560] text-lg '>Home</Link>
@@ -30,11 +30,15 @@ const Nav = () => {
             <span className='w-[20px] h-[6px] rounded-xl under-bar bg-black' />
           </li>
           <li className='navbar-link'>
-            <Link to="/what-we-do" className='text-[#525560] text-lg '>What we do</Link>
+            <Link to="/what-we-do" className='text-[#525560] text-lg '>Testimonials</Link>
             <span className='w-[20px] h-[6px] rounded-xl under-bar bg-black' />
           </li>
           <li className='navbar-link'>
-            <Link to="/our-works" className='text-[#525560] text-lg '>Our Works</Link>
+            <Link to="/our-works" className='text-[#525560] text-lg '>Pillars</Link>
+            <span className='w-[20px] h-[6px] rounded-xl under-bar bg-black' />
+          </li>
+          <li className='navbar-link'>
+            <Link to="/our-works" className='text-[#525560] text-lg '>Become a Partner</Link>
             <span className='w-[20px] h-[6px] rounded-xl under-bar bg-black' />
           </li>
 
@@ -45,7 +49,7 @@ const Nav = () => {
 
         </ul>
       </nav>
-      <button className='w-[115px] sm:hidden my-auto h-[43px] bg-[#720000] text-white rounded-sm'>
+      <button className='w-[115px] md-2:hidden my-auto h-[43px] bg-[#720000] text-white rounded-sm'>
         Donate
       </button>
       <button className="hidden lg:block w-[50px] my-auto  ml-auto" onClick={toggleNav}>

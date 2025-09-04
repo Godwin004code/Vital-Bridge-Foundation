@@ -10,8 +10,8 @@ const What = () => {
         <div className='w-[75px] my-auto h-[2px]  mr-5 bg-[#0C7B3B]'></div>
         <h2 className='text-[#0C7B3B] text-base font-bold'>OUR FOCUS AREAS</h2>
         </div>
-        <section className='flex  sm:flex-col justify-between mt-10'>
-    <div className='ml-[75px] sm:ml-0 sm:w-[100%] w-[50%]'>
+        <section className='flex  md-2:flex-col justify-between mt-10'>
+    <div className='ml-[75px] md-2:ml-0 md-2:w-[100%] w-[50%]'>
         <h2 className='text-4xl text-[#1D2130] font-bold'>Creating a Sustainable Future for All </h2>
         <div className='flex mt-14'>
         <svg className="w-[100px] h-[50px]" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -25,6 +25,12 @@ const What = () => {
 <p className='w-[70%] sm:w-[100%] mt-4'>
 Unlocking potential through learning and knowledge, and Empowering individuals to thrive and succeed (SDG 4 and SDG 9)
 </p>
+<button
+  className='w-fit px-6 h-[51px] bg-[#720000] mt-5 text-white rounded-md'
+  onClick={() => window.open('https://zfrmz.com/F7KeBKhQJlkEdXFxDrWF', '_blank')}
+>
+  Become a scholarship beneficiary
+</button>
 </div>
 
         </div>
@@ -39,6 +45,12 @@ Unlocking potential through learning and knowledge, and Empowering individuals t
 <p className='w-[70%] sm:w-[100%] mt-4'>
 Promoting wellness and ensuring access to essential healthcare for all (SDG 3) 
 </p>
+<button
+  className='w-fit px-6 h-[51px] bg-[#720000] mt-5 text-white rounded-md'
+  onClick={() => window.open('https://zfrmz.com/F7KeBKhQJlkEdXFxDrWF', '_blank')}
+>
+  Become a healthcare beneficiary
+</button>
 </div>
 
         </div>
@@ -60,7 +72,7 @@ Advocating for a greener, more sustainable future for generations to come (SDG 6
 
         </div>
     </div>
-    <div className='w-[40%] sm:w-[100%] sm:mt-10'>
+    <div className='w-[40%] md-2:w-[100%] md-2:mt-10'>
         <img src={img} className='h-[600px] sm:h-[350px] rounded-[20px] w-full object-cover' alt="" />
     </div>
         </section>

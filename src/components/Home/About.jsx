@@ -4,9 +4,8 @@ import { Link } from 'react-router-dom'
 
 const About = () => {
     return (
-        <section className='flex sm:flex-col w-[90%] mx-auto py-20 justify-between'>
-            <div className='flex w-[45%] sm:w-[100%] sm:mx-auto'>
-               
+        <section className='flex md-2:flex-col md-2:gap-10 w-[90%] mx-auto py-20 justify-between'>
+            <div className='flex w-[45%] md-2:w-[100%] sm:mx-auto'>
                 <section>
                   <div className='flex'>
                   <div className='w-[75px] my-auto h-[2px] mt-2 mr-5 bg-[#0C7B3B]'></div>
@@ -34,7 +33,7 @@ const About = () => {
                     </button></Link>
                 </section>
             </div>
-            <div className='w-[45%] sm:w-[100%] sm:mt-10 h-[578px] sm:h-[350px]'>
+            <div className='w-[45%] md-2:w-[100%] sm:mt-10 h-[578px] sm:h-[350px]'>
                 <img src={img} className='h-full w-full object-cover rounded-[20px]' alt="know about us" />
             </div>
         </section>

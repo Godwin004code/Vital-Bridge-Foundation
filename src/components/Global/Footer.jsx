@@ -2,6 +2,8 @@
 import React from 'react'
 import logo from "../assets/20240720_180228-removebg-preview.png"
 import { Link } from 'react-router-dom'
+import logo1 from "../assets/samdenkens3.png"
+import logo2 from "../assets/images-removebg-preview.png"
 
 
 
@@ -10,6 +12,14 @@ const Footer = () => {
     <div  className='bg-[#0B0706] sm:hidden' style={{borderTop: "1px solid #00000080"}}>
         <div className='w-[90%]  mx-auto sm:flex sm:justify-center sm:mb-6'>
     <img src={logo} className='sm:w-[116px] w-[320px] md-2:w-[240px] ml-[-80px] sm:h-[62px]' alt="VITAL BRIDGE FOUNDATION logo" />
+</div>
+
+<div  className='mb-10 w-[90%] mx-auto'>
+    <h2 className=' text-[#720000] font-semibold text-lg mb-6'>Financial Partners</h2>
+    <div className='flex gap-4'>
+          <img src={logo1} className='w-[100px] h-[80px]' alt="SAMDENKENS NIG LTD logo" />
+            <img src={logo2} className='w-[100px] h-[80px]' alt="WOW CHRISTMAS logo" />
+    </div>
 </div>
         <section className='w-[90%] mt-0 mb-0 pb-14 mx-auto flex sm:flex-col sm:justify-center justify-between'> 
 
@@ -114,8 +124,8 @@ const Footer = () => {
 <div className='sm:text-center'>
     <h2 className='text-[#720000] font-semibold text-lg mb-4'>Subscribe to get latest <br />updates</h2>
     <div className='flex'>
-        <input type="email" className='bg-transparent h-[51px] focus:outline-none text-white  rounded-tl-md rounded-bl-md pl-2' placeholder='Your email' style={{border: '1px solid #720000'}} name="" id="" />
-        <button className='w-[100px] h-[51px] bg-[#720000] mt-0 text-white rounded-tr-md rounded-br-md'>Subscribe</button>
+        {/* <input type="email" className='bg-transparent h-[51px] focus:outline-none text-white  rounded-tl-md rounded-bl-md pl-2' placeholder='Your email' style={{border: '1px solid #720000'}} name="" id="" /> */}
+        <button onClick={() => window.open("https://sendfox.com/vitalbridgefoundation")} className='w-[100px] h-[51px] bg-[#720000] mt-0 text-white rounded-md rounded-br-md'>Subscribe</button>
     </div>
 </div>
         </section>

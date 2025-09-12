@@ -19,11 +19,7 @@ const Hero = () => {
            What we do
         </button>
             </Link>
-        <section className='flex justify-between sm:hidden mt-[25%] sm:mt-[150]'>
-            <h2 className='text-white text-lg sm:text-sm font-medium'>230 children under our care</h2>
-            <div className='flex-1 h-[2px] bg-white mx-5 sm:mx-0 my-auto'></div>
-            <h2 className='text-white text-lg sm:text-sm font-medium'>58 donations collected</h2>
-        </section>
+        
            </section>
         </section>
     </section>
